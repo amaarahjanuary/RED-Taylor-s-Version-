@@ -1,0 +1,28 @@
+#products {
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+img {
+  height: 300px !important;
+  object-fit: cover;
+}
+
+.card {
+  width: calc(100% / 4);
+  min-width: 300px;
+}
+
+.card-title {
+  text-transform: capitalize;
+}
+
+body {
+  /* background-color: 	#9c1b15; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form-label {
+  color: white;
+}
